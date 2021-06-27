@@ -1,4 +1,4 @@
-static boolean validBrackets(String text) {
+static boolean isValid(String text) {
         List<String> bracketLists = new ArrayList<>();
         char[] arr = text.toCharArray();
         for (int i = 0; i < arr.length; i++) {
